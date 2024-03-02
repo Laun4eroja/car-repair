@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car repair</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="bg-wrapper">
+			<div class="bg-grad one active"></div>
+			<div class="bg-grad two"></div>
+			<div class="bg-grad three"></div>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<a class="header__logo" href="#">
+						<img src="./img/logo.svg" alt="">
+						<h3 class="header__logo-text">logoipsum</h3>
+					</a>
+					<div class="header__info">
+						<div class="header__info-item">
+							<img src="./img/hero/time.svg" alt="">
+							<div class="header__info-item_text">
+								SERVICE HOURS
+								<br>
+								Mon - Sat: 7:00 am - 6:00 pm
+							</div>
+						</div>
+						<div class="header__info-item">
+							<img src="./img/hero/phone.svg" alt="">
+							<div class="header__info-item_text">
+								CALL US
+								<br>
+								+1-555-555-5555
+							</div>
+						</div>
+						<a class="header__info-appointment" href="#">
+							<div class="header__info-appointment_text">
+								Make an Appointment
+							</div>
+							<div class="header__info-appointment_img">
+								<img src="./img/arrow.svg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<nav class="header__bottom">
+					<ul class="header__menu">
+						<li class="header__menu-item">
+							<a href="#">Services</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#">Specials</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#">Estimates</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#">Reviews</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#">Shop</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#">About</a>
+						</li>
+					</ul>
+					<div class="header__bottom-box">
+						<form class="header__bottom-search">
+							<input class="header__bottom-input" type="text" placeholder="Поиск">
+							<button class="header__bottom-btn" type="submit"></button>
+						</form>
+						<a class="header__bottom-basket basket" href="#">
+							<img src="./img/hero/basket.svg" alt="">
+							<p class="basket__num">2</p>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<div class="intro">
+			<div class="container">
+				<div class="intro__inner">
+					<h1 class="intro__title">Top notch service is our main auto motive</h1>
+					<a class="header__info-appointment" href="#">
+						<div class="header__info-appointment_text">
+							Make an Appointment
+						</div>
+						<div class="header__info-appointment_img">
+							<img src="./img/arrow.svg" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div><!-- ./Intro -->
+	</div>
+
+	<section class="section__first">
+		<div class="container">
+			<div class="section__inner">
+				<div class="section__header">
+					<h5 class="section_suptitle">Who we are</h5>
+					<h1 class="section_title">Nemo enim ipsam voluptatem quia voluptas in proident</h1>
+				</div>
+				<p class="section__text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+					laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in
+					ea
+					voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+					nulla pariatur.</p>
+				<img src="./img/about/bg-1.png" alt="">
+			</div>
+		</div>
+	</section><!-- ./Section first -->
+
+	<section class="section__second">
+		<div class="container">
+			<div class="section__header">
+				<h5 class="section_suptitle">OUR PROMISE TO YOU</h5>
+				<h1 class="section_title">Sed perspiciatis omnis iste natus</h1>
+			</div>
+			<div class="promise__inner">
+				<div class="promise__card">
+					<img src="./img/val_prop/01.png" alt="">
+					<div class="card__wrapper">
+						<div class="card__title">Quality service. Everytime.</div>
+						<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+							blanditiis praesentium corrupti quos dolores et quas.</div>
+					</div>
+				</div>
+				<div class="promise__card">
+					<img src="./img/val_prop/02.png" alt="">
+					<div class="card__wrapper">
+						<div class="card__title">Services by certified pros</div>
+						<div class="card__text">Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+							non numquam eius modi tempora incidunt.</div>
+					</div>
+				</div>
+				<div class="promise__card">
+					<img src="./img/val_prop/03.png" alt="">
+					<div class="card__wrapper">
+						<div class="card__title">Real people. Honest work.</div>
+						<div class="card__text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+							quam nihil molestiae consequatur illum.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- ./Section second -->
+
+	<section class="video">
+		<div class="container">
+			<h3 class="video__text">
+				Nemo enim ipsam voluptatem quia voluptas in proident
+			</h3>
+			<a class="video__btn" data-fancybox
+				href="https://www.youtube.com/watch?v=c1-s-Pozg9Q&ab_channel=AusAutoAftermarketAssoc"></a>
+		</div>
+	</section>
+
+	<section class="section__third">
+		<div class="container">
+			<div class="section__header">
+				<h5 class="section_suptitle">Our Services</h5>
+				<h1 class="section_title">Sed perspiciatis omnis iste natus</h1>
+			</div>
+			<div class="service__inner">
+				<div class="card__service">
+					<img src="./img/services/01.png" alt="">
+					<div class="card__title">Multi Point Inspections</div>
+					<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+						blanditiis praesentium corrupti quos dolores et quas.</div>
+				</div>
+				<div class="card__service">
+					<img src="./img/services/02.png" alt="">
+					<div class="card__title">Auto Repair</div>
+					<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+						blanditiis praesentium corrupti quos dolores et quas.</div>
+				</div>
+				<div class="card__service">
+					<img src="./img/services/03.png" alt="">
+					<div class="card__title">Auto Maintenance</div>
+					<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+						blanditiis praesentium corrupti quos dolores et quas.</div>
+				</div>
+				<div class="card__service">
+					<img src="./img/services/04.png" alt="">
+					<div class="card__title">Tires </div>
+					<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+						blanditiis praesentium corrupti quos dolores et quas.</div>
+				</div>
+				<div class="card__service">
+					<img src="./img/services/05.png" alt="">
+					<div class="card__title">Service Warranty</div>
+					<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+						blanditiis praesentium corrupti quos dolores et quas.</div>
+				</div>
+				<div class="card__service">
+					<img src="./img/services/06.png" alt="">
+					<div class="card__title">Shop Online</div>
+					<div class="card__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+						blanditiis praesentium corrupti quos dolores et quas.</div>
+				</div>
+			</div>
+			<a class="servise__btn" href="#">
+				<div class="servise__btn_text">
+					Learn more
+				</div>
+				<div class="servise__btn_img">
+					<img src="./img/arrow.svg" alt="">
+				</div>
+			</a>
+		</div>
+	</section><!-- ./Section third -->
+
+	<section class="appointment">
+		<div class="container">
+			<div class="appointment__bg">
+				<img src="./img/appointment/bg-1.png" alt="">
+			</div>
+			<div class="appointment__inner">
+				<div class="form__inner">
+					<div class="form__inner-title">Make an appointment</div>
+
+					<form class="form" action="/" method="post">
+						<div class="form__item">
+							<input class="form__input" type="text" name="name" placeholder="Name">
+						</div>
+						<div class="form__item">
+							<input class="form__input" type="email" name="email" placeholder="Email">
+						</div>
+						<div class="form__item">
+							<input class="form__input" type="text" name="Phone Number" placeholder="Phone Number">
+						</div>
+						<div class="form__item">
+							<input class="form__input" type="text" name="Select Service" placeholder="Select Service">
+						</div>
+					</form>
+
+					<form class="contact_us__message" action="/" method="post">
+						<div class="form__group">
+							<textarea class="form__textarea" name="text"
+								placeholder="Tell us about the car needing service(s)"></textarea>
+						</div>
+					</form>
+
+					<a class="header__info-appointment" href="#">
+						<div class="header__info-appointment_text  header__info-appointment_text--blue">
+							Make an Appointment
+						</div>
+						<div class="header__info-appointment_img">
+							<img src="./img/arrow.svg" alt="">
+						</div>
+					</a>
+				</div>
+
+				<div class="appointment__stat">
+					<div class="stat__title">Maxime placeat facere possimus omnis</div>
+					<div class="stat__num">17k</div>
+					<div class="stat__text">customers served (and counting)</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section__four">
+		<div class="container">
+			<div class="section__four-inner">
+				<div class="section__header">
+					<h5 class="section_suptitle">GALLERY & LIVE STREAMS</h5>
+					<h1 class="section_title">Check out our hard workers</h1>
+				</div>
+
+				<div class="tabs__wrapper">
+					<div class="streams__tabs">
+						<a class="streams__tabs-link js-tab-trigger" href="#gallery" data-tab="1">Gallery</a>
+						<a class="streams__tabs-link stream__online js-tab-trigger active" href="#stream-1"
+							data-tab="2">Live stream:
+							Bay 1</a>
+						<a class="streams__tabs-link stream__online js-tab-trigger" href="#stream-2" data-tab="3">Live
+							stream: Bay
+							2</a>
+						<a class="streams__tabs-link stream__offline js-tab-trigger" href="#stream-3" data-tab="4">Live
+							stream: Bay
+							3</a>
+					</div>
+					<div class="streams__video">
+						<div class="streams__gallery js-tab-content" id="gallery" data-tab="1">
+							<ol class="gallery__inner">
+								<li class="gallery__item" style="background-image: url(img/gallery/1.jpg);">
+									<a class="gallery__link" data-fancybox
+										href="https://www.youtube.com/watch?v=loi-8P7M9Ek&ab_channel=DutchCarPainter">Watch</a>
+								</li>
+								<li class="gallery__item" style="background-image: url(img/gallery/2.jpg);">
+									<a class="gallery__link" data-fancybox
+										href="https://www.youtube.com/watch?v=loi-8P7M9Ek&ab_channel=DutchCarPainter">Watch</a>
+								</li>
+								<li class="gallery__item" style="background-image: url(img/gallery/3.jpg);">
+									<a class="gallery__link" data-fancybox
+										href="https://www.youtube.com/watch?v=loi-8P7M9Ek&ab_channel=DutchCarPainter">Watch</a>
+								</li>
+								<li class="gallery__item" style="background-image: url(img/gallery/2.jpg);">
+									<a class="gallery__link" data-fancybox
+										href="https://www.youtube.com/watch?v=loi-8P7M9Ek&ab_channel=DutchCarPainter">Watch</a>
+								</li>
+								<li class="gallery__item" style="background-image: url(img/gallery/3.jpg);">
+									<a class="gallery__link" data-fancybox
+										href="https://www.youtube.com/watch?v=loi-8P7M9Ek&ab_channel=DutchCarPainter">Watch</a>
+								</li>
+								<li class="gallery__item" style="background-image: url(img/gallery/1.jpg);">
+									<a class="gallery__link" data-fancybox
+										href="https://www.youtube.com/watch?v=loi-8P7M9Ek&ab_channel=DutchCarPainter">Watch</a>
+								</li>
+							</ol>
+						</div>
+						<div class="tab-video js-tab-content active" id="stream-1" data-tab="2">
+							<img src="./img/gallery/bg-1.png" alt="">
+						</div>
+						<div class="tab-video js-tab-content" id="stream-2" data-tab="3">
+							<img src="./img/gallery/bg-2.png" alt="">
+						</div>
+						<div class="tab-video js-tab-content" id="stream-3" data-tab="4">
+							<img src="./img/gallery/no_stream.jpg" alt="">
+						</div>
+						<!-- <img class="tab-video js-tab-content" id="stream-2" data-tab="3" src="./img/gallery/bg-2.png" alt="">
+						<img class="tab-video js-tab-content" id="stream-3" data-tab="4" src="./img/gallery/bg-2.png" alt=""> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- ./Section four -->
+
+	<section class="section__third">
+		<div class="container">
+			<div class="section__five-inner">
+				<div class="section__header">
+					<h5 class="section_suptitle">Our CUSTOMERS</h5>
+					<h1 class="section_title">Illum qui dolorem eum quo voluptas ut distinctio</h1>
+				</div>
+
+				<div class="review__five">
+					<div class="review__box">
+						<div class="review__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod
+							tempor incididunt ut labore et dolore ex magna aliqua. Ut enim illum ad minim veniam, quis
+							ea
+							exercitation ullamco cillum ut enim dolore.”</div>
+						<div class="review__info">
+							<div class="review__ava">
+								<img src="./img/testimonials/1.svg" alt="">
+							</div>
+							<div class="review__name">Cullen Bohannon</div>
+						</div>
+					</div>
+					<div class="review__box">
+						<div class="review__text">“Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+							veritatis et quasi ipsam voluptatem aspernatur.”</div>
+						<div class="review__info">
+							<div class="review__ava">
+								<img src="./img/testimonials/2.svg" alt="">
+							</div>
+							<div class="review__name">Jennifer Thomas</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- ./Section five -->
+
+	<section class="section__stats">
+		<div class="container">
+			<div class="section__header__inner">
+				<div class="section__header">
+					<h5 class="section_suptitle  section_suptitle--white">OUR IMPACT</h5>
+					<h1 class="section_title  section_title--white">Nemo enim ipsam voluptatem quia voluptas</h1>
+				</div>
+				<img class="section__header__img" src="./img/stats/bg-1.png" alt="">
+			</div>
+
+			<div class="stats">
+				<div class="stats__item">
+					<img src="./img/stats/01.png" alt="">
+					<div class="stats__box">
+						<div class="stats__num">16k+</div>
+						<div class="stats__text">Oil changes</div>
+					</div>
+				</div>
+				<div class="stats__item">
+					<img src="./img/stats/02.png" alt="">
+					<div class="stats__box">
+						<div class="stats__num">13k+</div>
+						<div class="stats__text">Transmission repairs</div>
+					</div>
+				</div>
+				<div class="stats__item">
+					<img src="./img/stats/03.png" alt="">
+					<div class="stats__box">
+						<div class="stats__num">15k+</div>
+						<div class="stats__text">Alignments made</div>
+					</div>
+				</div>
+				<div class="stats__item">
+					<img src="./img/stats/04.png" alt="">
+					<div class="stats__box">
+						<div class="stats__num">11,500+</div>
+						<div class="stats__text">Engines repaired</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="stats__footer">
+				<div class="stats__footer-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+				<a class="header__info-appointment" href="#">
+					<div class="header__info-appointment_text  header__info-appointment_text--blue">
+						Make an Appointment
+					</div>
+					<div class="header__info-appointment_img">
+						<img src="./img/arrow.svg" alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__soc">
+					<a class="header__logo" href="#">
+						<img src="./img/logo.svg" alt="">
+						<h3 class="header__logo-text  header__logo-text--footer">logoipsum</h3>
+					</a>
+					<div class="footer__soc-text">
+						This is a blurb about the company sed do eiusmod tempor incididunt ut labore et dolore ex magna
+						aliqua.
+					</div>
+					<div class="footer__soc-group">
+						<div class="footer__soc-item">
+							<a href="#">
+								<img src="./img/footer/facebook.png" alt="">
+							</a>
+						</div>
+						<div class="footer__soc-item">
+							<a href="#">
+								<img src="./img/footer/twitter.png" alt="">
+							</a>
+						</div>
+						<div class="footer__soc-item">
+							<a href="#">
+								<img src="./img/footer/instagram.png" alt="">
+							</a>
+						</div>
+						<div class="footer__soc-item">
+							<a href="#">
+								<img src="./img/footer/youtube.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__links">
+					<h3 class="footer__title">EXPLORE LINKS</h3>
+					<ul class="footer__links-items">
+						<li class="footer__links-item">
+							<a href="#">About</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">Services</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">Specials</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">Estimates</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">Reviews</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">Shop</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">Careers</a>
+						</li>
+						<li class="footer__links-item">
+							<a href="#">FAQs</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__contact">
+					<h3 class="footer__title">CONTACT</h3>
+					<div class="footer__contact-item">
+						<img src="./img/footer/01.png" alt="">
+						<div class="footer__contact-text">321 Pikes Place Parkway
+							Seattle, WA 54321</div>
+					</div>
+					<div class="footer__contact-item">
+						<img src="./img/footer/02.png" alt="">
+						<div class="footer__contact-text">(555) 765-4321</div>
+					</div>
+					<div class="footer__contact-item">
+						<img src="./img/footer/03.png" alt="">
+						<div class="footer__contact-text">Info@company.com</div>
+					</div>
+					<div class="footer__contact-item">
+						<img src="./img/footer/04.png" alt="">
+						<div class="footer__contact-text">Mon - Sat:  7:000 am - 6:00 pm</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="footer__bottom">
+				<div class="footer__bottom-left">
+					Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod
+				</div>
+				<div class="footer__bottom-right">
+					<div class="footer__bottom-right-date">© 2018 Company</div>
+					<div class="footer__bottom-right-text">Privacy Policy | Terms & Conditions</div>
+				</div>
+			</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
